@@ -3,22 +3,18 @@
     font-size: 75px !important;
   }
 }
-
 * {
   box-sizing: border-box;
 }
-
 a {
   text-decoration: none;
   font-size: 0.333333rem;
 }
-
 body {
   width: 10rem;
   min-width: 320px;
   margin: 0 auto;
 }
-
 .header {
   width: 100%;
   height: 1.066667rem;
@@ -29,13 +25,11 @@ body {
   font-size: 0.32rem;
   border-bottom: 1px solid #da8f2a;
 }
-
 .nav {
   display: flex;
   flex-wrap: wrap;
   background: -webkit-linear-gradient(left, #9588a6, #b6aba9, #e68463, #8f95b4, #a792a2);
 }
-
 .nav a {
   width: 20%;
   display: flex;
@@ -43,7 +37,6 @@ body {
   align-items: center;
   padding-top: 0.066667rem;
 }
-
 .nav a .nav-item {
   overflow: hidden;
   width: 1.8rem;
@@ -52,51 +45,39 @@ body {
   background-size: 9.000045rem auto;
   transition: 0.3s;
 }
-
 .nav a .nav-item:hover {
   transform: scale(1.03);
 }
-
 .nav a:nth-child(2) .nav-item {
   background-position: -1.8rem 0;
 }
-
 .nav a:nth-child(3) .nav-item {
   background-position: -3.6rem 0;
 }
-
 .nav a:nth-child(4) .nav-item {
   background-position: -5.4rem 0;
 }
-
 .nav a:nth-child(5) .nav-item {
   background-position: -7.2rem 0;
 }
-
 .nav a:nth-child(6) .nav-item {
-  background-position: 0 -2.52892562rem;
+  background-position: 0 -2.51851852rem;
 }
-
 .nav a:nth-child(7) .nav-item {
-  background-position: -1.8rem -2.52892562rem;
+  background-position: -1.8rem -2.51851852rem;
 }
-
 .nav a:nth-child(8) .nav-item {
-  background-position: -3.6rem -2.52892562rem;
+  background-position: -3.6rem -2.51851852rem;
 }
-
 .nav a:nth-child(9) .nav-item {
-  background-position: -5.4rem -2.52892562rem;
+  background-position: -5.4rem -2.51851852rem;
 }
-
 .nav a:nth-child(10) .nav-item {
-  background-position: -7.2rem -2.52892562rem;
+  background-position: -7.2rem -2.51851852rem;
 }
-
 .nav a:nth-child(-n+5) {
   margin-bottom: 0.066667rem;
 }
-
 .nav a span {
   display: block;
   height: 0.4rem;
@@ -105,17 +86,14 @@ body {
   color: #666;
   transition: 0.3s;
 }
-
 .nav a span:hover {
   color: #491b0f;
 }
-
 .background-transiton {
   width: 100%;
   height: 1.333333rem;
   background: -webkit-linear-gradient(top, #abb9e0, #a1749a, #690e23);
 }
-
 .banner {
   position: relative;
   width: 100%;
@@ -123,7 +101,6 @@ body {
   background: url(../images/xiao-02.jpg) no-repeat;
   background-size: 10rem;
 }
-
 .banner .name {
   position: absolute;
   display: flex;
@@ -132,7 +109,6 @@ body {
   bottom: 0;
   right: 0;
 }
-
 .banner .name span {
   color: #fff;
   font-size: 0.186667rem;

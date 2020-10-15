@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>响应式布局</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <style>
+        .container .row>div {
+            height: 50px;
+            background-color: rgb(255, 242, 242);
+            border: 1px solid #ccc;
+            line-height: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- 栅格系统 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-5 col-lg-2">1号盒子</div>
+            <div class="col-xs-12 col-sm-4 col-md-2 col-lg-8">2号盒子</div>
+            <div class="col-xs-12 col-sm-4 col-md-5 col-lg-2">3号盒子</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-5 col-lg-2">1号盒子</div>
+            <div class="col-xs-12 col-sm-4 col-md-2 col-lg-8">
+                <div class="row">
+                    <div class="col-xs-6"></div>
+                    <div class="col-xs-6"></div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-5 col-lg-2">3号盒子</div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-2 ">1号盒子</div>
+            <div class="col-xs-4 col-xs-offset-2">2号盒子</div>
+            <div class="col-xs-2 col-xs-offset-2">3号盒子</div>
+        </div>
+    </div>
+</body>
+</html>
